@@ -1,9 +1,9 @@
 {
-  "geode": "3.3.0",
+  "geode": "4.0.1",
   "gd": {
-    "win": "2.206"
+    "win": "2.2074"
   },
-  "version": "v1.0.3",
+  "version": "v1.0.4",
   "id": "iswilljr.enter-search",
   "name": "Enter Search",
   "developer": "iswilljr",
@@ -20,12 +20,12 @@
   "dependencies": [
     {
       "id": "geode.custom-keybinds",
-      "version": ">=v1.7.1",
+      "version": ">=v1.10.0",
       "importance": "required"
     },
     {
       "id": "geode.node-ids",
-      "version": ">=1.13.1",
+      "version": ">=1.17.0",
       "importance": "required"
     }
   ]
