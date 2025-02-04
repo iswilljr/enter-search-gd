@@ -1,7 +1,8 @@
 {
-  "geode": "4.0.1",
+  "geode": "4.2.0",
   "gd": {
-    "win": "2.2074"
+    "win": "2.2074",
+    "mac": "2.2074"
   },
   "version": "v1.0.4",
   "id": "iswilljr.enter-search",
@@ -12,21 +13,12 @@
   "links": {
     "source": "https://github.com/iswilljr/enter-search-gd"
   },
-  "repository": "https://github.com/iswilljr/enter-search-gd",
   "issues": {
     "info": "If you find any bugs or have any suggestions, create an issue on github",
     "url": "https://github.com/iswilljr/enter-search-gd/issues"
   },
-  "dependencies": [
-    {
-      "id": "geode.custom-keybinds",
-      "version": ">=v1.10.0",
-      "importance": "required"
-    },
-    {
-      "id": "geode.node-ids",
-      "version": ">=1.17.0",
-      "importance": "required"
-    }
-  ]
+  "dependencies": {
+    "geode.custom-keybinds": ">=v1.10.0",
+    "geode.node-ids": ">=1.17.0"
+  }
 }

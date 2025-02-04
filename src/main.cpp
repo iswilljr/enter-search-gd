@@ -23,10 +23,10 @@ class $modify(LevelSearchLayer){
     }
 
     this->template addEventListener<keybinds::InvokeBindFilter>([=](keybinds::InvokeBindEvent* event) {
-      auto levelSearch = CCDirector::get()->getRunningScene()->getChildByID("LevelSearchLayer");
+      auto levelSearch = static_cast<LevelSearchLayer*>(CCDirector::get()->getRunningScene()->getChildByID("LevelSearchLayer"));
 
       if (event->isDown() && levelSearch != nullptr) {
-        this->onSearch(nullptr);
+        levelSearch->onSearch(nullptr);
       }
       return ListenerResult::Propagate;
     }, "enter-search"_spr);
