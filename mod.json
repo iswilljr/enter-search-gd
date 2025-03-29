@@ -1,5 +1,5 @@
 {
-  "geode": "4.2.0",
+  "geode": "4.0.1",
   "gd": {
     "win": "2.2074",
     "android": "2.2074",
@@ -14,11 +14,21 @@
   "links": {
     "source": "https://github.com/iswilljr/enter-search-gd"
   },
+  "repository": "https://github.com/iswilljr/enter-search-gd",
   "issues": {
     "info": "If you find any bugs or have any suggestions, create an issue on github",
     "url": "https://github.com/iswilljr/enter-search-gd/issues"
   },
-  "dependencies": {
-    "geode.custom-keybinds": ">=v1.10.0"
-  }
+  "dependencies": [
+    {
+      "id": "geode.custom-keybinds",
+      "version": ">=v1.10.0",
+      "importance": "required"
+    },
+    {
+      "id": "geode.node-ids",
+      "version": ">=1.17.0",
+      "importance": "required"
+    }
+  ]
 }
