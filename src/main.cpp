@@ -1,4 +1,5 @@
 #include <Geode/Geode.hpp>
+#include <Geode/Geode.hpp>
 #include <Geode/modify/LevelSearchLayer.hpp>
 #include <geode.custom-keybinds/include/Keybinds.hpp>
 
@@ -23,10 +24,10 @@ class $modify(LevelSearchLayer){
     }
 
     this->template addEventListener<keybinds::InvokeBindFilter>([=](keybinds::InvokeBindEvent* event) {
-      auto levelSearch = static_cast<LevelSearchLayer*>(CCDirector::get()->getRunningScene()->getChildByID("LevelSearchLayer"));
+      auto levelSearch = CCDirector::get()->getRunningScene()->getChildByID("LevelSearchLayer");
 
       if (event->isDown() && levelSearch != nullptr) {
-        levelSearch->onSearch(nullptr);
+        this->onSearch(nullptr);
       }
       return ListenerResult::Propagate;
     }, "enter-search"_spr);
