@@ -1,5 +1,4 @@
 #include <Geode/Geode.hpp>
-#include <Geode/Geode.hpp>
 #include <Geode/modify/LevelSearchLayer.hpp>
 #include <geode.custom-keybinds/include/Keybinds.hpp>
 
