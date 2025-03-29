@@ -24,11 +24,6 @@
       "id": "geode.custom-keybinds",
       "version": ">=v1.10.0",
       "importance": "required"
-    },
-    {
-      "id": "geode.node-ids",
-      "version": ">=1.17.0",
-      "importance": "required"
     }
   ]
 }
