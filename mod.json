@@ -19,7 +19,6 @@
     "url": "https://github.com/iswilljr/enter-search-gd/issues"
   },
   "dependencies": {
-    "geode.custom-keybinds": ">=v1.10.0",
-    "geode.node-ids": ">=1.17.0"
+    "geode.custom-keybinds": ">=v1.10.0"
   }
 }
