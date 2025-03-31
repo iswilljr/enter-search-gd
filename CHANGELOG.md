@@ -1,3 +1,7 @@
+## v1.1.0
+
+- Added Support for MacOS by @hiimjasmine00
+
 ## v1.0.4
 
 - bump geode from v3.3.0 to v4.0.1
