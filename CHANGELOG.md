@@ -1,4 +1,4 @@
-## v1.1.0
+## v1.1.1
 
 - Added Support for MacOS by @hiimjasmine00
 
