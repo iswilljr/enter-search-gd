@@ -21,7 +21,7 @@
   "dependencies": [
     {
       "id": "geode.custom-keybinds",
-      "version": ">=v1.10.0",
+      "version": ">=v1.10.3",
       "importance": "required"
     },
     {
