@@ -1,5 +1,5 @@
 {
-  "geode": "4.0.1",
+  "geode": "4.3.1",
   "gd": {
     "win": "2.2074",
     "mac": "2.2074"
@@ -21,12 +21,12 @@
   "dependencies": [
     {
       "id": "geode.custom-keybinds",
-      "version": ">=v1.10.0",
+      "version": ">=v1.10.3",
       "importance": "required"
     },
     {
       "id": "geode.node-ids",
-      "version": ">=1.17.0",
+      "version": ">=1.20.1",
       "importance": "required"
     }
   ]
