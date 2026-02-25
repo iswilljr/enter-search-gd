@@ -1,33 +1,35 @@
 {
-  "geode": "4.3.1",
+  "geode": "5.0.1",
   "gd": {
-    "win": "2.2074",
-    "mac": "2.2074"
+    "win": "2.2081",
+    "mac": "2.2081"
   },
-  "version": "v1.1.1",
+  "version": "v1.1.2",
   "id": "iswilljr.enter-search",
   "name": "Enter Search",
   "developer": "iswilljr",
   "tags": ["content", "customization", "interface", "utility"],
-  "description": "Search levels when you press enter in the level search page",
+  "description": "Search levels on enter in the search page",
   "links": {
     "source": "https://github.com/iswilljr/enter-search-gd"
   },
-  "repository": "https://github.com/iswilljr/enter-search-gd",
   "issues": {
     "info": "If you find any bugs or have any suggestions, create an issue on github",
     "url": "https://github.com/iswilljr/enter-search-gd/issues"
   },
-  "dependencies": [
-    {
-      "id": "geode.custom-keybinds",
-      "version": ">=v1.10.3",
-      "importance": "required"
-    },
-    {
-      "id": "geode.node-ids",
-      "version": ">=1.20.1",
-      "importance": "required"
+  "settings": {
+    "enterSearch": {
+      "type": "keybind",
+      "name": "Enter Search",
+      "description": "Search when you press enter in the level search page",
+      "default": "Enter",
+      "category": "universal"
     }
-  ]
+  },
+  "dependencies": {
+    "geode.node-ids": {
+      "version": ">=1.23.0",
+      "required": true
+    }
+  }
 }

@@ -1,3 +1,7 @@
+## v.1.1.2
+
+- bump geode from v4.3.1 to v5.0.1
+
 ## v1.1.1
 
 - bump geode from v4.0.1 to v4.3.1
