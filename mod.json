@@ -23,7 +23,8 @@
       "name": "Enter Search",
       "description": "Search when you press enter in the level search page",
       "default": "Enter",
-      "category": "universal"
+      "category": "universal",
+      "allow-in-text-inputs": true
     }
   },
   "dependencies": {
