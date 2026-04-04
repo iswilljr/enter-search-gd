@@ -1,3 +1,8 @@
+## v1.2.0
+
+- Fix Geode 5.5.0 regression by @Cvolton
+- bump Geode to 5.5.3
+
 ## v.1.1.2
 
 - bump geode from v4.3.1 to v5.0.1
